@@ -1,0 +1,129 @@
+@media only screen and (max-width: 375px) {
+     /* containers */
+    .container{
+        max-width: 375px;
+    }
+
+    .container-2{
+        width: 95%; 
+        flex-direction: column;
+    }
+
+    /* buttons */
+    .btn-light{
+        width: 70px;
+        font-size: 12px;
+    }
+
+    /* header */
+    div header img{
+        margin-left: 15px;
+    }
+    div header button{
+        margin-right: 15px;
+    }
+
+    /* main section */
+    .main-section{
+        margin-top: 150px;
+        text-align: center;
+    }
+    .main-section p{
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    /* screen */
+    .screen img{
+        width: 80%;
+    }
+
+    /* statistics */
+    .statistics{
+        flex-direction: column;
+    }
+    .statistics .communities{
+        margin-bottom: 100px;
+    }
+
+    /* grow together, following conversation, and ypur users  */
+    .grow-top{
+        background-image: url(../images/bg-section-top-mobile-1.svg);
+        height: 100px;
+    }
+    .grow-bottom{
+        background-image: url(../images/bg-section-bottom-mobile-1.svg);
+        height: 50px;
+    }
+    .users-top{
+        background-image: url(../images/bg-section-top-mobile-2.svg);
+        height: 100px;
+    }
+    .users-bottom{
+        background-image: url(../images/bg-section-bottom-mobile-2.svg);
+        height: 100px;
+    }
+
+    .flowing-conversations{
+        margin: 100px 0px;
+    }
+    .grow-together, .your-users{
+        background-color: var(--paleBlue);
+    }
+    .grow-together .container-2 .text,
+    .flowing-conversations .container-2 .text,
+    .your-users .container-2 .text{
+        order: 2;
+        width: 85%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .grow-together .container-2 .img img,
+    .flowing-conversations .container-2 .img img,
+    .your-users .container-2 .img img{
+        order: 1;
+        width: 95%;
+        height: 80%;
+        margin: 30px 0;
+    }
+
+    /* get started */
+    .get-started{
+        text-align: center;
+        margin: 100px 0px;
+    }
+
+    /* footer */
+    .footer-top{
+        background-image: url(../images/bg-footer-top-mobile.svg);
+        height: 50px;
+    }
+    
+    footer .container-2 .info, footer .container-2 .subscribe{
+        width: 80%;
+        margin: auto;
+    }
+    footer .container-2 .subscribe{
+        order: 1;
+    }
+    footer .container-2 .info{
+        order: 2;
+    }
+    footer .container-2 .subscribe form input[type="text"]{
+        margin-right: 0;
+        width: 85%;
+    }
+    footer .container-2 .subscribe form input[type="submit"]{
+        margin: 20px 0;
+        margin-left: 40%;
+        
+    }
+    footer .icons{
+        width: 85%;
+        margin: auto;
+        margin-top: 35px;
+    }
+    footer .icons i{
+        margin-right: 15px;
+    }
+}

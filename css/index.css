@@ -9,6 +9,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
+    /* overflow: hidden; */
 }
 
 /* variables */
@@ -32,6 +33,7 @@ h1, h2, h3{
     border-radius: 25px;
     background-color: #FFFFFF;
     color: var(--pink);
+    outline: none;
 }
 .btn-dark{
     width: 200px;
@@ -41,11 +43,20 @@ h1, h2, h3{
     background-color: var(--pink);
     color: #FFFFFF;
 }
+footer .container-2 .subscribe form input[type="submit"]{
+    height: 30px;
+    width: 150px;
+    border: 1px solid var(--pink);
+    background-color: var(--pink);
+    color: #FFFFFF;
+    border-radius: 3px;
+}
 
 /* container */
 .container{
     width: 1440px;
-    margin: 20px auto 0px;
+    overflow: hidden;
+    margin: auto;
 }
 
 .container-2{
@@ -57,9 +68,17 @@ h1, h2, h3{
 }
 
 /* header */
-main header{
+div header{
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
+}
+
+div header img{
+    margin-left: 30px;
+}
+div header button{
+    margin-right: 30px;
 }
 
 /* main section */
@@ -142,5 +161,26 @@ main header{
 footer{
     background-color: var(--darkCyan);
     color: var(--paleBlue);
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+}
+footer .container-2 .info, footer .container-2 .subscribe{
+    width: 35%;
+}
+footer .container-2 .info > *, footer .container-2 .subscribe > *{
+    margin-bottom: 15px;
+}
+footer .container-2 .subscribe form input[type="text"]{
+    height: 10px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    margin-right: 25px;
+}
+footer .icons{
+    width: 85%;
+    margin: auto;
+    margin-top: 35px;
+}
+footer .icons i{
+    margin-right: 15px;
 }
