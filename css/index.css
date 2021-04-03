@@ -54,9 +54,9 @@ footer .container-2 .subscribe form input[type="submit"]{
 
 /* container */
 .container{
-    width: 1440px;
-    overflow: hidden;
+    max-width: 1440px;
     margin: auto;
+    overflow: hidden;
 }
 
 .container-2{
@@ -92,9 +92,10 @@ div header button{
 }
 
 /* screen */
-.screen{
-    text-align: center;
-    margin: 100px 0px;
+.screen img{ 
+    display: block;
+    width: 80%;
+    margin: 100px auto;
 }
 
 /* statistics */
