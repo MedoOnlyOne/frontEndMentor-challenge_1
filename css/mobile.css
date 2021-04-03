@@ -17,10 +17,7 @@
 
     /* header */
     div header img{
-        margin-left: 15px;
-    }
-    div header button{
-        margin-right: 15px;
+        width: 50%;
     }
 
     /* main section */
